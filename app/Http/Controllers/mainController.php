@@ -27,6 +27,7 @@ class mainController extends Controller
 
         $categoryExpenses = expenses::select('expenses.expenseCategoryId', \DB::raw('SUM(expenseAmount) as total'))
             ->where('expenses.userId', $userId)
+            ->where('expenses.sts', 1)
             ->whereDate('expenses.date', $today)
             ->groupBy('expenses.expenseCategoryId')
             ->get()
