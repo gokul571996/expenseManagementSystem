@@ -1,0 +1,76 @@
+.custom-navbar {
+    background-color: #1a97b0 !important;
+}
+
+.custom-navbar .navbar-brand {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.custom-navbar .navbar-toggler {
+    box-shadow: none !important;
+    outline: none !important;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    padding: 6px 8px;
+    border-radius: 6px;
+}
+
+.custom-navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.custom-navbar .nav-link {
+    color: #ffffff !important;
+    transition: color 0.3s;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #ffeb3b !important;
+}
+
+.custom-navbar .nav-link.active {
+    color: #ffd700 !important;
+}
+
+.custom-navbar .navbar-collapse {
+    background-color: #1a97b0;
+}
+
+.custom-navbar .navbar-toggler:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.custom-navbar .navbar-toggler:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.custom-dropdown {
+    background-color: #1a97b0 !important;
+    border: none;
+    padding: 0;
+}
+
+.custom-dropdown .dropdown-item {
+    color: #ffffff;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.custom-dropdown .dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffeb3b;
+}
+
+.custom-dropdown .dropdown-divider {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 0;
+}
+
+
+
